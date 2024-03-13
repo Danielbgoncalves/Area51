@@ -14,15 +14,15 @@ export default class CenaJogo extends Phaser.Scene{
 
     preload(){
 
-        this.load.image('fundo1', '../imagens/fundo1.png');
-        this.load.image('fundo2', '../imagens/fundo2.png');
-        this.load.image('botaoVerm', '../imagens/botao.png');
-        this.load.image('botaoVerd', '../imagens/botao2.png');
-        this.load.image('abrir', '../imagens/abrir.png');
-        this.load.image('prancheta', '../imagens/prancheta.png');
-        this.load.image('cientista1', '../imagens/cientista1.png');
-        this.load.image('cientista2', '../imagens/cientista2.png');
-        this.load.spritesheet('explosao', '../imagens/explosao.png', {frameWidth: 165, frameHeight: 350});
+        this.load.image('fundo1', 'Imagens/fundo1.png');
+        this.load.image('fundo2', 'Imagens/fundo2.png');
+        this.load.image('botaoVerm', 'Imagens/botao.png');
+        this.load.image('botaoVerd', 'Imagens/botao2.png');
+        this.load.image('abrir', 'Imagens/abrir.png');
+        this.load.image('prancheta', 'Imagens/prancheta.png');
+        this.load.image('cientista1', 'Imagens/cientista1.png');
+        this.load.image('cientista2', 'Imagens/cientista2.png');
+        this.load.spritesheet('explosao', 'Imagens/explosao.png', {frameWidth: 165, frameHeight: 350});
 
     }
 
