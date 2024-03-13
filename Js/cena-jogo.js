@@ -14,8 +14,8 @@ export default class CenaJogo extends Phaser.Scene{
 
     preload(){
 
-        this.load.image('fundo1', 'imagens/fundo1.png');
-        this.load.image('fundo2', 'imagens/fundo2.png');
+        this.load.image('fundo1', '/imagens/fundo1.png');
+        this.load.image('fundo2', '/imagens/fundo2.png');
         this.load.image('botaoVerm', 'imagens/botao.png');
         this.load.image('botaoVerd', 'imagens/botao2.png');
         this.load.image('abrir', 'imagens/abrir.png');
