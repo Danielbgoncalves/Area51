@@ -21,7 +21,7 @@ export default class intro extends Phaser.Scene{
         this.load.image('cientista3', 'Imagens/cientista3.png');
         //this.load.image('fundoPreto', '/Imagens/fundopreto.png');
         this.load.image('vai-rolar', 'Imagens/vai-comecar.png');
-        this.load.image('discurso', '/Imagens/discurso.png');
+        this.load.image('discurso', 'Imagens/discurso.png');
         this.load.spritesheet('general', 'Imagens/general.png', {frameWidth: 230,frameHeiight: 270});
 
     }
