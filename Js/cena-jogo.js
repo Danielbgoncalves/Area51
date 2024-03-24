@@ -8,26 +8,19 @@ export default class CenaJogo extends Phaser.Scene{
         this.personagens = [
             {nome: 'Ana' ,sprite: 'cientista1', fala: 'fala1', spriteOver: 'cientista1'},
             {nome: 'senhor' ,sprite: 'cientista2', fala: 'fala2', spriteOver: 'cientista2'},
-            {nome: 'et' ,sprite: 'cientista3', fala: 'fala3', spriteOver: 'cientista3Over'}
+            {nome: 'et-Roin' ,sprite: 'cientista3', fala: 'fala3', spriteOver: 'cientista3Over'},
+            {nome: 'et-Edna' ,sprite: 'cientista4', fala: 'fala4', spriteOver: 'cientista4Over'},
+
         ]
     }
 
     preload(){
-
-        /*this.load.image('fundo1', 'Imagens/fundo1.png');
-        this.load.image('fundo2', 'Imagens/fundo2.png');
-        this.load.image('areaDeFala', 'Imagens/areaDeFala.png');
-        this.load.image('fala1', 'Imagens/fala1.png');
-        this.load.image('fala2', 'Imagens/fala2.png');
-        this.load.image('fala3', 'Imagens/fala3.png');*/
-        /*this.load.image('botaoVerm', 'Imagens/botao.png');
-        this.load.image('botaoVerd', 'Imagens/botao2.png');
-        this.load.image('abrir', 'Imagens/abrir.png');
-        this.load.image('prancheta', 'Imagens/prancheta.png');
-        this.load.image('cientista1', 'Imagens/cientista1.png');
-        this.load.image('cientista2', 'Imagens/cientista2.png');
-        this.load.image('cientista3', 'Imagens/cientista3.png');*/
+        
         this.load.image('cientista3Over', 'Imagens/cientista3Over.png');
+        this.load.image('cientista4', 'Imagens/cientista4.png');
+        this.load.image('cientista4Over', 'Imagens/cientista4Over.png');
+        this.load.image('fala4', 'Imagens/fala4.png');
+        
         this.load.image('laiser', 'Imagens/laiser2.png');
 
         this.load.spritesheet('explosao', 'Imagens/explosao5.png', {frameWidth: 350, frameHeight: 300});
