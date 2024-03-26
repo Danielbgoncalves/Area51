@@ -49,7 +49,7 @@ export default class intro extends Phaser.Scene{
     update(){
 
         if(this.discurso.y > -250){
-            this.discurso.y -= 5;
+            this.discurso.y -= 0.7;
         } else {
             this.scene.start('CenaJogo');
         }
